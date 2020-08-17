@@ -1,0 +1,10 @@
+---
+title: "CodeBook"
+output: html_document
+---
+
+
+First of all, all the pieces of data were read by R and were merged in the data set 'data'. 
+Then, all the needed columns(ones that contain mean or standard deviation) were extracted and put in the new data set 'mean.sd'. To make data more understandable, I added the column 'activitylabels', which contain the label for each activity. In order to it even easier to read, the 'activity' and 'activitylabel' column were moved to the beggining of the data frame. 
+
+last step was to create separate data frame 'tidy data' which group data by each activity and each subject and show the average. Then, the new data frame was saved in a separate fail. 
